@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0 auto;
+    color: white;
+}
+
+/*Header*/
+
+header{
+    background-color: rgb(12, 45, 96);
+    display: flex;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0px 50px 0px 50px;
+}
+li {
+    margin: 0 10px;
+}
+
+.busqueda{
+    width: 35px;
+}
+
+.logo{
+    width: 180px;
+}
+
+/*Seccion imagen avatar*/
+
+.imagen{
+    background-image: url(imgs/hb_avatarwayofwater_dplus_hero_18910a3e.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 790px;
+}
+
+.imagen h1{
+    padding-top: 250px;
+    font-size: 170px;
+    margin-left: 200px;
+    margin-bottom: 80px;
+}
+
+.imagen p{
+    font-size: 17px;
+    background-color: rgb(1, 20, 40);
+    margin-left: 150px;
+    text-align: center;
+    border: 1px solid white;
+    padding: 25px;
+    width: 250px;
+}
+
+/*Top pelis*/
+
+.toppelis{
+    background-color: rgb(1, 20, 40);
+}
+
+.toppelis h1{
+    padding-top: 60px;
+    text-align: center;
+}
+
+.toppelis .pelis{
+    background-color: rgb(1, 20, 40);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.toppelis .pelis .peli{
+    padding-top: 60px;
+}
+
+.toppelis .pelis .peli img{
+    width: 300px;
+    height: 425px;
+}
+
+/*salas premium*/
+
+.premium{
+    background-image: url(imgs/banner-plf-1324x420.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 120px;
+    padding-left: 150px;
+}
+
+.premium h2{
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+.premium p{
+    font-size: 27px;
+    padding-bottom: 40px;
+}
+
+.premium a{
+    text-decoration: none;
+    color: rgb(98, 98, 221);
+}
+
+/*promociones*/
+
+.ofertas{
+    padding-top: 120px;
+    background-color: rgb(1, 20, 40);
+    text-align: center;
+}
+
+.ofertas h1{
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.promociones{
+    display: flex;
+    justify-content: center;
+}
+
+.promocion{
+    margin: 40px;
+    color: black;
+    background-color: white;
+}
+
+.promocion img{
+    width: 450px;
+}
+
+.promocion h2, .promocion p{
+    text-align: left;
+    padding: 30px;
+}
+
+.promocion p{
+    padding-bottom: 70px;
+}
+
+.promocion a p, .promocion a{
+    padding-bottom: 30px;
+    text-decoration: none;
+    color: rgb(98, 98, 221);
+}
+
+/*footer*/
+
+footer {
+    background-color: rgb(12, 45, 96);
+}
+
+.pie{
+    padding-top: 60px;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info ul{
+    list-style-type: none;
+}
+
+.info li{
+    padding: 3px;
+}
+
